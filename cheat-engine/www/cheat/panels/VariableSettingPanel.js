@@ -126,7 +126,8 @@ export default {
                 return {
                     id: idx,
                     name: varName,
-                    value: $gameVariables.value(idx)
+                    value: $gameVariables.value(idx),
+                    varType: typeof($gameVariables.value(idx))
                 }
             })
         },
@@ -142,6 +143,11 @@ export default {
         },
 
         onItemChange (item) {
+            // fix number typing
+            if (item.varType === 'number') {
+                item.value = Number(item.value)
+            }
+
             // modify value
             $gameVariables.setValue(item.id, item.value)
 
