@@ -1,8 +1,8 @@
-import {Key} from './KeyCodes.js'
-import {Alert} from './AlertHelper.js'
-import {cloneObject} from './Tools.js'
-import {SpeedCheat, SceneCheat, GeneralCheat, BattleCheat, MessageCheat} from './CheatHelper.js'
-import {ShortcutMap} from './ShortcutHelper.js'
+import { Key } from './KeyCodes.js'
+import { Alert } from './AlertHelper.js'
+import { cloneObject } from './Tools.js'
+import { SpeedCheat, SceneCheat, GeneralCheat, BattleCheat, MessageCheat } from './CheatHelper.js'
+import { ShortcutMap } from './ShortcutHelper.js'
 
 // default shortcut settings
 const defaultShortcutSettings = {

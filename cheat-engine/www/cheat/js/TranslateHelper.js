@@ -1,4 +1,4 @@
-import {KeyValueStorage} from './KeyValueStorage.js'
+import { KeyValueStorage } from './KeyValueStorage.js'
 
 export const END_POINT_URL_PATTERN_TEXT_SYMBOL = '${TEXT}'
 

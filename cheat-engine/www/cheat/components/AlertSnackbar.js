@@ -1,4 +1,4 @@
-import {Alert} from'../js/AlertHelper.js'
+import { Alert } from '../js/AlertHelper.js'
 
 export default {
     name: 'ShortcutPanel',

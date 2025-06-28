@@ -1,7 +1,7 @@
 import KeyInputField from '../components/KeyInputField.js'
 import { GLOBAL_SHORTCUT } from '../js/GlobalShortcut.js'
-import {Key} from '../js/KeyCodes.js'
-import {Alert} from '../js/AlertHelper.js'
+import { Key } from '../js/KeyCodes.js'
+import { Alert } from '../js/AlertHelper.js'
 
 export default {
     name: 'ShortcutPanel',

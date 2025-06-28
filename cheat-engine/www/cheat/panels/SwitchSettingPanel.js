@@ -1,6 +1,6 @@
-import {ConfirmDialog} from '../js/DialogHelper.js'
-import {TRANSLATOR} from '../js/TranslateHelper.js'
-import {TRANSLATE_SETTINGS} from '../js/TranslateHelper.js'
+import { ConfirmDialog } from '../js/DialogHelper.js'
+import { TRANSLATOR } from '../js/TranslateHelper.js'
+import { TRANSLATE_SETTINGS } from '../js/TranslateHelper.js'
 
 export default {
     name: 'SwitchSettingPanel',

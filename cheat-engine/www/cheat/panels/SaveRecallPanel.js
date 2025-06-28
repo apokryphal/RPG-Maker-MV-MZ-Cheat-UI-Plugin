@@ -1,5 +1,5 @@
-import {KEY_VALUE_STORAGE} from '../js/KeyValueStorage.js'
-import {TRANSLATE_SETTINGS, TRANSLATOR} from '../js/TranslateHelper.js'
+import { KEY_VALUE_STORAGE } from '../js/KeyValueStorage.js'
+import { TRANSLATE_SETTINGS, TRANSLATOR } from '../js/TranslateHelper.js'
 
 export default {
     name: 'SaveRecallPanel',

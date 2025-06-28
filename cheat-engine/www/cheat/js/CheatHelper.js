@@ -1,5 +1,5 @@
-import {Alert} from './AlertHelper.js'
-import {KeyValueStorage} from './KeyValueStorage.js'
+import { Alert } from './AlertHelper.js'
+import { KeyValueStorage } from './KeyValueStorage.js'
 
 export class GeneralCheat {
     // static saveCheatSettings () {

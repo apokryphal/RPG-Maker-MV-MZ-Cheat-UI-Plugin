@@ -4,8 +4,8 @@ import { GeneralCheat } from './js/CheatHelper.js'
 import AlertSnackbar from './components/AlertSnackbar.js'
 import ConfirmDialog from './components/ConfirmDialog.js'
 import { customizeRPGMakerFunctions } from './init/customize_functions.js'
-import {Key} from './js/KeyCodes.js'
-import {Alert} from'./js/AlertHelper.js'
+import { Key } from './js/KeyCodes.js'
+import { Alert } from './js/AlertHelper.js'
 
 export default {
     name: 'MainComponent',

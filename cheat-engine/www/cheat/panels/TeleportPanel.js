@@ -1,5 +1,5 @@
-import {TRANSLATE_SETTINGS, TRANSLATOR} from '../js/TranslateHelper.js'
-import {Alert} from '../js/AlertHelper.js'
+import { TRANSLATE_SETTINGS, TRANSLATOR } from '../js/TranslateHelper.js'
+import { Alert } from '../js/AlertHelper.js'
 
 export default {
     name: 'TeleportPanel',

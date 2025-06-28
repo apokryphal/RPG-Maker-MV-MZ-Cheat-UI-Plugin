@@ -1,4 +1,4 @@
-import {Key} from '../js/KeyCodes.js'
+import { Key } from '../js/KeyCodes.js'
 
 export default {
     name: 'ShortcutPanel',

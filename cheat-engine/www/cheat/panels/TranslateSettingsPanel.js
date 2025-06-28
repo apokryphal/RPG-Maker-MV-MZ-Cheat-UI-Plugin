@@ -1,7 +1,7 @@
-import {TRANSLATE_SETTINGS, DEFAULT_END_POINTS, RECOMMEND_CHUNK_SIZE} from '../js/TranslateHelper.js'
-import {TRANSLATOR} from '../js/TranslateHelper.js'
-import {isInValueInRange} from '../js/GlobalShortcut.js';
-import {Alert} from '../js/AlertHelper.js'
+import { TRANSLATE_SETTINGS, DEFAULT_END_POINTS, RECOMMEND_CHUNK_SIZE } from '../js/TranslateHelper.js'
+import { TRANSLATOR } from '../js/TranslateHelper.js'
+import { isInValueInRange } from '../js/GlobalShortcut.js';
+import { Alert } from '../js/AlertHelper.js'
 
 export default {
     name: 'TranslateSettingsPanel',
