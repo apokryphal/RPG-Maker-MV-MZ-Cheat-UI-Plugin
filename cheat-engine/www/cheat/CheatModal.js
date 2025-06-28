@@ -30,12 +30,12 @@ export default {
     },
 
     template: `
-<v-card 
+<v-card
     dark
     class="z-index-cheat-0"
-    width="700" 
-    height="400">
-    <v-row 
+    width="900"
+    height="800">
+    <v-row
         class="fill-height ma-0 pa-0">
         <div
             :style="'width: ' + navWidth + 'px;'"

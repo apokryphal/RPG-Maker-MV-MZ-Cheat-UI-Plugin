@@ -14,7 +14,7 @@ export default {
         :items="filteredTableItems"
         :search="search"
         :custom-filter="tableItemFilter"
-        :items-per-page="5">
+        :items-per-page="10">
         <template v-slot:top>
             <v-text-field
                 label="Search..."
@@ -89,7 +89,7 @@ export default {
     data () {
         return {
             search: '',
-            excludeNameless: false,
+            excludeNameless: true,
 
             switchNames: [],
 

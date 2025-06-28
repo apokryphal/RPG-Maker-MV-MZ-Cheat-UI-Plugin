@@ -47,7 +47,7 @@ export default {
         :items="tableItems"
         :search="search"
         :custom-filter="tableItemFilter"
-        :items-per-page="5">
+        :items-per-page="10">
         <template v-slot:top>
             <v-text-field
                 label="Search..."

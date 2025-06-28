@@ -12,7 +12,7 @@ export default {
         :items="filteredTableItems"
         :search="search"
         :custom-filter="tableItemFilter"
-        :items-per-page="5">
+        :items-per-page="10">
         <template v-slot:top>
             <v-text-field
                 label="Search..."
@@ -45,7 +45,7 @@ export default {
                 background-color="grey darken-3"
                 class="d-inline-flex"
                 height="10"
-                style="width: 60px;"
+                style="width: 200px;"
                 hide-details
                 solo
                 v-model="item.value"
@@ -84,7 +84,7 @@ export default {
     data () {
         return {
             search: '',
-            excludeNameless: false,
+            excludeNameless: true,
 
             variableNames: [],
 
