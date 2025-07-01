@@ -95,6 +95,9 @@ if __name__ == '__main__':
 
     paths = Paths()
 
+    if os.path.exists(paths.temp_root_path):
+        shutil.rmtree(paths.temp_root_path)
+
     for game_type in GameTypes:
         # copy js sources to temp directory
         shutil.copytree(paths.origin.root_dir, paths.temp.root_dir)
