@@ -1,9 +1,9 @@
+import argparse
+from enum import Enum
+import json
 import os
 import shutil
-from enum import Enum
 import zipfile
-import argparse
-import json
 
 
 class GameTypes(Enum):
