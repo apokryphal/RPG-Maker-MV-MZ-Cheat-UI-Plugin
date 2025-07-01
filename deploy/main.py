@@ -116,7 +116,8 @@ if __name__ == '__main__':
         shutil.rmtree(paths.temp.get_initialize_path())
 
         # compress to zip file
-        shutil.rmtree(os.path.join(paths.temp.root_dir, '.idea'))
+        if os.path.exists(os.path.join(paths.temp.root_dir, '.idea')):
+            shutil.rmtree(os.path.join(paths.temp.root_dir, '.idea'))
         create_cheat_version_file(args.version, paths)
         shutil.make_archive(paths.get_output_file_path(game_type, args.version), 'gztar', paths.temp.root_dir)
 
