@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
         # merge cheat sources
         merge_directory(
-            os.path.join(paths.temp.get_initialize_path(game_type), os.path.basename(paths.temp.get_cheat_source_path())),
+            paths.temp.get_initialize_path(game_type),
             paths.temp.get_cheat_source_path())
 
         # copy js
